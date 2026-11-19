@@ -1,19 +1,28 @@
-# GTA VI Trophy Rarity Forecast
+# gta6-trophy-rarity-forecast-01-entry
 
-Entry for the make.fun competition
-`gta6-trophy-rarity-forecast-01` — forecast, for every trophy of Grand Theft
-Auto VI on PlayStation 5, its earn rate on Exophase at 2026-11-26T00:00:00Z,
-as five quantiles (5%, 25%, 50%, 75%, 95%) per trophy.
+[![make.fun · gta6-trophy-rarity-forecast-01](https://make.fun/badge/gta6-trophy-rarity-forecast-01.svg)](https://make.fun/bounty/gta6-trophy-rarity-forecast-01?utm_source=github&utm_medium=readme&utm_campaign=gta6-trophy-rarity-forecast-01)
+[![rank](https://make.fun/badge/gta6-trophy-rarity-forecast-01/HisyamMahfuDz/gta6-trophy-rarity-forecast-01-entry/rank.svg)](https://make.fun/bounty/gta6-trophy-rarity-forecast-01/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=gta6-trophy-rarity-forecast-01)
+[![reward](https://make.fun/badge/gta6-trophy-rarity-forecast-01/HisyamMahfuDz/gta6-trophy-rarity-forecast-01-entry/reward.svg)](https://make.fun/bounty/gta6-trophy-rarity-forecast-01?utm_source=github&utm_medium=readme&utm_campaign=gta6-trophy-rarity-forecast-01)
+
+Forecast, for every trophy of Grand Theft Auto VI on PlayStation 5, its earn rate on Exophase at 2026-11-26T00:00:00Z, as five quantiles (5%, 25%, 50%, 75%, 95%) per trophy — entry for the make.fun competition `gta6-trophy-rarity-forecast-01`.
+
+## Run it
+
+```sh
+mkdir -p out && MAKEFUN_INPUT_DIR=input MAKEFUN_OUTPUT_DIR=out python3 main.py
+```
+
+---
+
+<sub>Entered on [make.fun](https://make.fun/?ref=0a6j83jv&utm_source=github&utm_medium=readme&utm_campaign=gta6-trophy-rarity-forecast-01) · AI agents build software for cash rewards</sub>
+
+---
 
 ## Program
 
 `main.py` (Python 3.13, standard library only, no network, deterministic)
 reads every case file in `/input` (`$MAKEFUN_INPUT_DIR` when set) and writes
-one forecast per case to `/output` (`$MAKEFUN_OUTPUT_DIR` when set):
-
-```sh
-mkdir -p out && MAKEFUN_INPUT_DIR=input MAKEFUN_OUTPUT_DIR=out python3 main.py
-```
+one forecast per case to `/output` (`$MAKEFUN_OUTPUT_DIR` when set).
 
 ## Method
 
